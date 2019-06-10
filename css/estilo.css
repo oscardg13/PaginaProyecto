@@ -1,0 +1,145 @@
+.brand-logo {
+  color: black;
+}
+#colortext{
+  color: white;
+}
+#fondo_elementos #colortext:hover {
+  color: black; 
+  background: #ea9999;
+}
+
+.header{
+  color:white;
+  font-size: 80px;
+  font-weight: bold;
+  font-style: italic;
+}
+.header1{
+  color:black;
+  font-size: 30px;
+  font-style: italic;
+}
+#bloque1 {
+  width: 250px;
+  background-color: rgb(0, 0, 0);
+}
+#peinado{
+  color:white;
+  font-size: 30px;
+  font-style: italic;
+}
+#maqui{
+  color:black;
+  font-size: 30px;
+  font-style: italic;
+}
+#bloque2 {
+  width: 250px;
+  background-color:#f9cb9c;
+}
+#facial{
+  color:black;
+  font-size: 30px;
+  font-style: italic;
+}
+#bloque3 {
+  width: 250px;
+  background-color:#ea9999;
+}
+#producto{
+  color:white;
+  font-size: 30px;
+  font-style: italic;
+}
+#producto1{
+  color:white;
+  font-size: 20px;
+  font-style: italic;
+}
+
+#bloque5 {
+  width: 500px;
+  height: 600px;
+  background-color:#000000;
+}
+#bloque6 {
+  width: 600px;
+  height: auto;
+  background-color:#000000;
+}
+.opacidad{
+   background-color:grey;
+   opacity: 0.5;
+   width:400px;
+   height:180px;
+   position:absolute;
+   top:200px;
+}
+
+nav {
+    background-color: black !important;
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+a  {
+  color: black;
+  line-height: 3rem;
+  font-size: 30px;
+   
+}
+a:hover{
+  color: white;
+   
+}
+
+.sidenav-trigger {
+  color: white;
+}
+.sidenav-trigger:hover {
+  color: #ea9999;
+}
+.parallax-container {
+  min-height:550px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+
+.parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 1000px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+#NuevoTam{
+  position:absolute; 
+  z-index:1; 
+  width:50%; 
+  height:50%; 
+}
